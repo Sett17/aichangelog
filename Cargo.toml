@@ -2,6 +2,14 @@
 name = "aichangelog"
 version = "0.1.0"
 edition = "2021"
+authors = ["Sett"]
+description = "A CLI tool to generate a changelog based on your commit messages."
+readme = "README.md"
+keywords = ["chatgpt", "changelog", "commit", "git", "log"]
+repository = "https://github.com/Sett17/aichangelog"
+homepage = "https://github.com/Sett17/aichangelog"
+documentation = "https://github.com/Sett17/aichangelog"
+license = "MIT"
 
 [dependencies]
 anyhow = "1.0.70"

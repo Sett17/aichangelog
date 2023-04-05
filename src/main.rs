@@ -179,14 +179,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     Ok(())
 }
 
-// tool to generate changelog from commit range
-// ranges:
-//   hash to head
-//   hash to hash
-//   tag to head
-//   tag to tag
-//   tag to hash
-
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
